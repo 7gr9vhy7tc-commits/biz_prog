@@ -30,13 +30,13 @@ st.latex('\int_a^b f(x) dx')
 """
 
 "#### :orange[이미지:st.image()]"
-st.image("./data/파이썬 설명.jpeg", caption="파이썬 설명 이미지입니다.", width=500)
+st.image("./data2/파이썬 설명.jpeg", caption="파이썬 설명 이미지입니다.", width=500)
 
 "#### :orange[비디오:st.video()]"
-st.video("./data/17422066-hd_1080_1920_25fps.mp4")
+st.video("./data2/커피.mp4")
 
 "#### :orange[오디오:st.audio()]"
-st.audio("./data/파이썬 음원.mp3")
+st.audio("./data2/파이썬 음원.mp3")
 
 # 폴더 만들어서 넣어 줘야 올라감
 
