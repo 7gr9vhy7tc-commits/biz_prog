@@ -68,3 +68,39 @@ col2.metric("습도", "60%", "-5%")
 col2.write("이건 습도입니다.")
 col3.metric("풍속", "10km/h", "1km/h")
 col4.metric("강수량", "5mm", "0mm")
+
+
+import pandas as pd
+import numpy as np
+
+chart_data = pd.DataFrame(
+    np.random.randn(20, 3),
+    columns=['a', 'b', 'c']
+    )
+
+"#### :orange[차트:st.line_chart()]"
+st.line_chart(chart_data)
+
+st.bar_chart(chart_data)
+
+st.area_chart(chart_data)
+
+st.scatter_chart(chart_data)
+
+df = pd.DataFrame(
+    np.random.randn(100, 2) / [50, 50] + [37.55, 126.97],
+    columns=['lat', 'lon']
+    )
+st.map(df)
+
+st.divider()
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+
+fig, ax = plt.subplots()
+ax.plot(x, y)
+st.pyplot(fig)
