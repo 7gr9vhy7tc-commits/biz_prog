@@ -30,7 +30,7 @@ st.latex('\int_a^b f(x) dx')
 """
 
 "#### :orange[이미지:st.image()]"
-st.image(lectures/data/파이썬 설명.jpeg, caption="파이썬 설명 이미지", width=500)
+st.image("./lectures/data/파이썬 설명.jpeg, caption="파이썬 설명 이미지", width=500)
 
 "#### :orange[비디오:st.video()]"
 st.video("/Users/hyunju/Documents/2026_biz/lectures/data/17422066-hd_1080_1920_25fps.mp4")
