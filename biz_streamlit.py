@@ -38,8 +38,6 @@ st.video("./data2/커피.mp4")
 "#### :orange[오디오:st.audio()]"
 st.audio("./data2/파이썬 음원.mp3")
 
-# 폴더 만들어서 넣어 줘야 올라
-
 
 "#### :orange[Pandas 데이터프레임]"
 import pandas as pd
