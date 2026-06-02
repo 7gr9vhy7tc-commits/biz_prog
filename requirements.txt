@@ -1,4 +1,1 @@
 matplotlib
-pandas
-pillow
-tinketer
