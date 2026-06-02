@@ -30,13 +30,13 @@ st.latex('\int_a^b f(x) dx')
 """
 
 "#### :orange[이미지:st.image()]"
-st.image("./data2/파이썬 설명.jpeg", caption="파이썬 설명 이미지입니다.", width=500)
+st.image("./data2/explain.jpeg", caption="파이썬 설명 이미지입니다.", width=500)
 
 "#### :orange[비디오:st.video()]"
-st.video("./data2/커피.mp4")
+st.video("./data2/coffee.mp4")
 
 "#### :orange[오디오:st.audio()]"
-st.audio("./data2/파이썬 음원.mp3")
+st.audio("./data2/music.mp3")
 
 
 "#### :orange[Pandas 데이터프레임]"
